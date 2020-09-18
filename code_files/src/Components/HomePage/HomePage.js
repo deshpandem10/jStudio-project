@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import './HomePage.css';
 
 const GridWrapper = styled.div`
     display: grid;
@@ -11,11 +12,11 @@ const GridWrapper = styled.div`
     grid-auto-rows: minmax(25px, auto);
 `;
 
-export const Home = (props) => (
-    <GridWrapper>
+export const Home = () => (
+    <div className="homeBackground">
         <p>Hello, Madhura!</p>
         <p>Work in progress.</p>
         <p>This is paragraph 1 on Home page.</p>
         <p>This is paragraph 2 on Home page.</p>
-    </GridWrapper>
+    </div>
 )
