@@ -11,7 +11,7 @@ const GridWrapper = styled.div`
     grid-auto-rows: minmax(25px, auto);
 `;
 
-export const Auto = () => (
+export const About = () => (
     <GridWrapper>
         <h2>About Page</h2>
         <p>This is paragraph 1 on About page.</p>
