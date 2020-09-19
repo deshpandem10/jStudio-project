@@ -1,3 +1,14 @@
+/*
 .homeBackground {
-    background-image: none;
+    background-image: url("https://imagizer.imageshack.com/img923/6315/xuaOzN.jpg");
+    filter: blur(5px);
+    -webkit-filter: blur(8px);
+
+    height: 100%;
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+*/
