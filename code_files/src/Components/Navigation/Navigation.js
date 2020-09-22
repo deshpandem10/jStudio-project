@@ -1,11 +1,12 @@
 import React from 'react';
 import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 import styled from 'styled-components';
+import '../../App.css';
 
 const Styles = styled.div`
     .navbar { background-color: #222; }
     a, .navbar-nav, .navbar-light .nav-link {
-        color: #9FFFCB;
+        color: #84d6fd;
         &:hover { color: white; }
     }
     .navbar-brand {
@@ -23,7 +24,9 @@ const Styles = styled.div`
 const navigationBar = () => (
     <Styles>
         <Navbar expand="lg">
-            <Navbar.Brand href="/">jStudio</Navbar.Brand>
+            <Navbar.Brand href="/">
+                <img src={process.env.PUBLIC_URL + '/images/logo.jpg'} alt="jStudio-logo" className="jstudio-logo" />
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             
             <Navbar.Collapse id="basic-navbar-nav">
@@ -38,7 +41,7 @@ const navigationBar = () => (
                         <Nav.Link href="/about">About Us</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="#">Contact Us</Nav.Link>
+                        <Nav.Link href="/contact">Contact Us</Nav.Link>
                     </Nav.Item>               
                 </Nav>
             </Navbar.Collapse>

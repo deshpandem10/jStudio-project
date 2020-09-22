@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import './HomePage.css';
 
-import Background from '../../Images/home-background.jpg';
+import Background from "../../Images/home-background.jpg";
 
 let homeStyleBackground = {
     width: "100%",
