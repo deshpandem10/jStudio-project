@@ -1,0 +1,18 @@
+
+
+/*  IMPORTANT --- ADD MEDIA QUERIES */
+
+.contactUs-page {
+    width: 40%;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.contactForm-label {
+    text-align: start;
+    padding-left: 3em;
+}
+
+#reset-form, #submit-form {
+    width: -webkit-fill-available;
+}
