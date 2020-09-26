@@ -9,8 +9,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    text-align: center;
 }
 
+#contact-form {
+    padding-left: 1em;
+    padding-right: 1em;
+}
 .contactForm-label {
     text-align: start;
 }
