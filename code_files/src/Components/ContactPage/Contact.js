@@ -20,7 +20,7 @@ export class Contact extends React.Component {
                 </div>
 
                 <div className="row" style={{marginTop: "5em"}}>
-                    <div className="col-sm-6"></div>
+                    <div className="col-sm-3"></div>
                     <div className="col-sm-6">
                         <form id="contact-form">
                             <div className="row form-group">
@@ -53,11 +53,7 @@ export class Contact extends React.Component {
                             </div>
                         </form>
                     </div>
-                </div>
-
-
-
-                
+                </div>               
             </div>
         )
     }
