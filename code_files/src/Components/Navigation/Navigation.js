@@ -27,7 +27,7 @@ const navigationBar = () => (
             <Navbar.Brand href="/">
                 <img src={process.env.PUBLIC_URL + '/images/logo.jpg'} alt="jStudio-logo" className="jstudio-logo" />
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
             
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
