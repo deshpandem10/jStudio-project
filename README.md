@@ -15,6 +15,7 @@ First, clone the repository locally using:
 git clone https://github.com/deshpandem10/jStudio-project.git
 ```
 Then, navigate to the cloned repository using `cd`.
+
 Lastly, install all the necessary modules using: 
 ```
 npm install
