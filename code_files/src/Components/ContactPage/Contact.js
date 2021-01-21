@@ -5,6 +5,13 @@ import './Contact.css';
 
 export class Contact extends React.Component {
 
+    submitClickHandler = () => {
+        
+        console.log('submit button clicked');
+
+
+    }
+
     render() {
         return (
             <div style={{marginTop: "5%"}}>
@@ -45,10 +52,14 @@ export class Contact extends React.Component {
                             <div className="row form-group">
                                 <div className="col-sm-3"></div>
                                 <div className="col-sm-3">
-                                    <button className="btn btn-secondary" id="reset-form" type="reset">Cancel</button>                 
+                                    <button className="btn btn-secondary contactForm_btn" id="reset-form" type="reset">
+                                        Cancel
+                                    </button>                 
                                 </div>
                                 <div className="col-sm-3">
-                                    <button className="btn btn-primary" id="submit-form" type="submit">Submit</button>
+                                    <button className="btn btn-primary contactForm_btn" id="submit-form" type="button" onClick={this.submitClickHandler}>
+                                        Submit
+                                    </button>
                                 </div>
                             </div>
                         </form>

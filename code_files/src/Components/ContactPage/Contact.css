@@ -24,3 +24,5 @@ body {
 #reset-form, #submit-form {
     width: -webkit-fill-available;
 }
+
+.contactForm_btn { margin-top: 0.5em; }
