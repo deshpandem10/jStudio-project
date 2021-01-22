@@ -7,9 +7,11 @@ export class Contact extends React.Component {
 
     submitClickHandler = () => {
         
-        console.log('submit button clicked');
+        let name = document.getElementById('name').value;
+        let email = document.getElementById('emailAddress').value;
+        let message = document.getElementById('message').value;
 
-
+        let usersDataArr = [];
     }
 
     render() {
