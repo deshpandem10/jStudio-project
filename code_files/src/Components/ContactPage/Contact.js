@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import './Contact.css';
 
@@ -12,6 +11,21 @@ export class Contact extends React.Component {
         let message = document.getElementById('message').value;
 
         let usersDataArr = [];
+        let jsonObj = {};
+
+        jsonObj['name'] = name;
+        jsonObj['email'] = email;
+        jsonObj['message'] = message;
+
+        usersDataArr.push(jsonObj);
+
+        console.log('json object: ', jsonObj);
+        console.log('array: ', usersDataArr);
+
+        $('#contact-form').trigger('reset');
+
+        console.log('insert react-bootstrap-sweetalert here');
+
     }
 
     render() {
