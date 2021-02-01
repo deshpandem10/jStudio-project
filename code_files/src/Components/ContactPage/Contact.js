@@ -22,7 +22,7 @@ export class Contact extends React.Component {
         console.log('json object: ', jsonObj);
         console.log('array: ', usersDataArr);
 
-        $('#contact-form').trigger('reset');
+        document.getElementById('contact-form').reset();
 
         console.log('insert react-bootstrap-sweetalert here');
 
