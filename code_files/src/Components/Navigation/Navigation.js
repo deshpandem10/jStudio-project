@@ -35,7 +35,7 @@ const navigationBar = () => (
                         <Nav.Link href="/">Home</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="#">Gallery</Nav.Link>
+                        <Nav.Link href="/gallery">Gallery</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link href="/about">About Us</Nav.Link>

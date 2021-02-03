@@ -1,4 +1,5 @@
 import React from 'react';
+import SweetAlert from 'react-bootstrap-sweetalert';
 
 import './Contact.css';
 
@@ -18,6 +19,11 @@ export class Contact extends React.Component {
         jsonObj['message'] = message;
 
         usersDataArr.push(jsonObj);
+        
+        if (name == '' || email == '' || message == '') {
+            console.log('hello');
+            
+        }
 
         console.log('json object: ', jsonObj);
         console.log('array: ', usersDataArr);

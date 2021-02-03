@@ -8,6 +8,7 @@ import Navigation from './Components/Navigation/Navigation';
 import { Home } from './Components/HomePage/HomePage';
 import { About } from './Components/AboutPage/About';
 import { Contact } from './Components/ContactPage/Contact';
+import { Gallery } from './Components/Gallery/Gallery';
 import { NoMatch } from './Components/NoMatch/NoMatch';
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
+            <Route path="/gallery" component={Gallery} />
             <Route component={NoMatch} />
           </Switch>
         </Router>
