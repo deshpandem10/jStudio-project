@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import styled from 'styled-components';
+import React from 'react';
 import './HomePage.css';
 
 import Background from "../../Images/home-background.jpg";
