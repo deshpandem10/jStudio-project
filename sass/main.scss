@@ -1,5 +1,22 @@
-.jsHead {
-    position: fixed;
-    width: 100%;
-    
+@import "./header-footer";
+@import "./mixins";
+@import "./cssvariables";
+
+// Common Styles - start-------------------
+html{
+    font-size: 16px;
+    font-size: 0.8vw;
+    font-family: $fontFamily;
+    @include desktop-sm{
+        font-size: 1.25vw;
+    }
+    @include mobile{
+        font-size: 2vw;
+    }
 }
+body{
+    font-family: $fontFamily; 
+    font-size: $fontSize;
+    background: #fafaf8;
+}
+
