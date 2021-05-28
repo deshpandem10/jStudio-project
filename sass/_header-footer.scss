@@ -4,5 +4,12 @@
     .jsNavigationTop {
         padding-top: 5px;
         padding-bottom: 5px;
-    }  
+        .jsLogo {
+            height: 5rem;
+            img {
+                height: 100%;
+            }
+        }
+    }
+    background-color: #545b62;
 }
