@@ -1,0 +1,16 @@
+@import "./header-footer";
+@import "./mixins";
+@import "./cssvariables";
+
+.main {
+    .container {
+        margin: 1rem auto;
+
+        .main__imgHolder {
+            height: 30rem;
+            img {
+                height: 100%;
+            }
+        }
+    }
+}
