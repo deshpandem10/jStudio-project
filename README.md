@@ -10,6 +10,8 @@ Bootstrap v4 Material Design (MDB v4) is used for animation effects on website.
 
 ## How to install MDB -
 
+Various MDB animations can be found on link - https://mdbootstrap.com/docs/b4/jquery/css/animations/
+
 MDB can be installed by downloading the package zip file from the link - https://mdbootstrap.com/docs/b4/jquery/getting-started/installation/
 
 or 
