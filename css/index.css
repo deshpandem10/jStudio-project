@@ -14,11 +14,9 @@
       .jsHead .jsNavigationTop #headerContainer li a {
         text-decoration: none;
         color: #FFF;
-        font-size: 1.5rem; }
-      .jsHead .jsNavigationTop #headerContainer li a.dropdown-item {
-        color: #545b62; }
-        .jsHead .jsNavigationTop #headerContainer li a.dropdown-item:active {
-          background-color: transparent; }
+        font-size: 1rem; }
+      .jsHead .jsNavigationTop #headerContainer li a:hover {
+        color: #ffae68; }
 
 .main .container {
   margin: 1rem auto; }

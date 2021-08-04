@@ -14,16 +14,14 @@
       .jsHead .jsNavigationTop #headerContainer li a {
         text-decoration: none;
         color: #FFF;
-        font-size: 1.5rem; }
-      .jsHead .jsNavigationTop #headerContainer li a.dropdown-item {
-        color: #545b62; }
-        .jsHead .jsNavigationTop #headerContainer li a.dropdown-item:active {
-          background-color: transparent; }
+        font-size: 1rem; }
+      .jsHead .jsNavigationTop #headerContainer li a:hover {
+        color: #ffae68; }
 
 html {
   font-size: 16px;
   font-size: 0.8vw;
-  font-family: calibri; }
+  font-family: "Kumbh Sans", sans-serif; }
   @media (max-width: 1199px) {
     html {
       font-size: 1.25vw; } }
@@ -32,7 +30,7 @@ html {
       font-size: 2vw; } }
 
 body {
-  font-family: calibri;
+  font-family: "Kumbh Sans", sans-serif;
   font-size: 0.875rem;
   background: #fafaf8; }
   body .main {
