@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AACA,eAAgB;EACZ,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,cAAc",
+"mappings": "AACA,eAAgB;EACZ,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,KAAK;EACd,OAAO,EAAE,cAAc;;AAG3B,KAAM;EACF,aAAa,EAAE,GAAG",
 "sources": ["../sass/poetry-pages.scss"],
 "names": [],
 "file": "poetry-pages.css"
